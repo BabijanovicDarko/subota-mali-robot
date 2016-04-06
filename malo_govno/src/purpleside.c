@@ -13,14 +13,14 @@ const struct goto_fields purple_tactic_one_positions[TACTIC_ONE_POSITION_COUNT] 
 {
 	//{{85,400},LOW_SPEED,FORWARD,NULL}
 	{{230,400},NORMAL_SPEED,FORWARD,NULL},						//ide ispred prve kucice
-	{{230,80},NORMAL_SPEED,FORWARD,NULL},						//zatvara vrata
-	{{230,400},NORMAL_SPEED,BACKWARD,NULL},						//se vraca nazad
+	{{230,85},NORMAL_SPEED,FORWARD,NULL},						//zatvara vrata
+	{{230,400},NORMAL_SPEED,BACKWARD,NULL},						//vraca se nazad
 	{{550,300},NORMAL_SPEED,FORWARD,NULL},						//ide ispred druge
-	{{550,80},NORMAL_SPEED,FORWARD,NULL},						//zatvara drugu	
+	{{550,85},NORMAL_SPEED,FORWARD,NULL},						//zatvara drugu	
 	{{550,300},NORMAL_SPEED,BACKWARD,NULL},						//vraca se nazad
 	{{250,850},NORMAL_SPEED,FORWARD,NULL},						//priprema za kocke
-	{{1100,970},NORMAL_SPEED,FORWARD,NULL},						//gura kocke
-	{{100,970},NORMAL_SPEED,FORWARD,NULL}						//zavrsi
+	{{1100,980},NORMAL_SPEED,FORWARD,NULL},						//gura kocke
+	{{100,980},NORMAL_SPEED,BACKWARD,NULL}						//zavrsi
 		
 };
 

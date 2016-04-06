@@ -2076,7 +2076,7 @@ void odometry_set_position(struct odometry_position* new_position)
      e1e:	08 95       	ret
 
 00000e20 <purpleside>:
-	{{100,970},NORMAL_SPEED,FORWARD,NULL}						//zavrsi
+	{{100,980},NORMAL_SPEED,BACKWARD,NULL}						//zavrsi
 		
 };
 
